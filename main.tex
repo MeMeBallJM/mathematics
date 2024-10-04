@@ -1,0 +1,45 @@
+\documentclass{report}
+\usepackage[a4paper,margin=1in,footskip=0.25in]{geometry}
+
+\input{latex-template/index.tex}
+
+\usepackage{enumitem}
+
+\title{Mathematics}
+\author{Joshua Levy Morton}
+\date{Friday, October 4, 2024}
+
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Rings and Fields}
+
+\begin{definition}{Rings}{}
+    A ring $(R, +, \cdot)$ is set $R$ equipped with two binary operations, addition $+: R \times R \to R$ and multiplication $\cdot: R \times R \to R$ satisfying the following conditions.
+
+    \begin{enumerate}[label=(\roman*)]
+        \item \textbf{Associative addition:} $(x + y) + z = x + (y + z)$, for all $x, y, z \in R$.
+        \item \textbf{Commutative addition:} $x + y = y + x$, for all $x, y \in R$.
+        \item \textbf{Additive identity:} There exists an element, denoted $0 \in R$ such that $x + 0 = x$, for all $x \in R$.
+        \item \textbf{Additive inverse:} For all $x \in R$, there exists an element $-x \in R$ such that $x + (-x) = 0$.
+        \item \textbf{Associative multiplication:} $(x \cdot y) \cdot z = x \cdot (y \cdot z)$, for all $x, y, z \in R$.
+        \item \textbf{Multiplicative identity:} There exists an element, denoted $1 \in R$ such that $x \cdot 1 = 1 \cdot x = x$, for all $x \in R$.
+        \item \textbf{Left distributivity:} $x \cdot (y + z) = (x \cdot y) + (x \cdot z)$, for all $x, y, z \in R$.
+        \item \textbf{Right distributivity:} $(y + z) \cdot x = (y \cdot x) + (z \cdot x)$, for all $x, y, z \in R$.
+      \end{enumerate}
+
+\end{definition}
+
+
+\chapter{Linear Algebra}
+\chapter{Topology}
+\chapter{Real Analysis}
+
+Joshua
+
+
+\end{document}
